@@ -16,7 +16,7 @@
         <!-- Header -->
           <header id="header">
             <h1>Projects</h1>
-            <p>A brief description of my major projects</p>
+            <p>A brief description of my personal projects</p>
           </header>
 
         <!-- Main -->
@@ -24,19 +24,36 @@
 
             <!-- Content -->
               <section id="content" class="main">
-                <h2>Virtual Assistant</h2>
-                <p>The project is an intelligent personal assistant that uses concepts of NLP and Deep learning to recognize commands to complete the user's task. Many of the existing virtual assistants have chosen to use a speech interface over a visual one, making it disadvantageous for the deaf and dumb.
-                  This project overcomes this disadvantage by introducing visual assistance. This way, the user can either choose to provide commands by voice or sign language.</p>
-                <p>This project uses Google Speech Recognition model for speech recognition, MySQL for the database module, frontend was developed with flask.
-                  The gesture recognition module uses convolutional neural networks and was trained using an extensive Americal Sign Langauge dataset.
+                <h2>Reddit Data Pipeline</h2>
+                <p>The project is an automated data pipeline designed to extract, process, and analyze large volumes of Reddit data for advanced analytics and dashboarding. With the growing importance of social media insights, organizations require scalable and modular solutions to efficiently collect, transform, and store unstructured data from external APIs. This project addresses these needs by streamlining the entire ETL process, ensuring data integrity, scalability, and ease of integration with analytics platforms.</p>
+                <p>This project utilizes Dockerized Apache Airflow for workflow orchestration and scheduling, and PostgreSQL as the staging relational database. Data is extracted from the Reddit API, staged in PostgreSQL, and then automatically ingested into Amazon S3. Data transformation and querying are performed using AWS Glue and Amazon Athena, with the final processed data loaded into Amazon Redshift to enable robust analytics and dashboarding capabilities.</p>
+                <p>
+                  <a href="https://github.com/mohnish-srikanth/RedditDataEng" target="_blank" style="font-weight: bold; color: #007bff; text-decoration: underline;">
+                    Go to source code
+                  </a>
                 </p>
-                <h2>Stock Prediction Using Machine Learning Algorithms</h2>
+
+                <h2>Real-time Voting System</h2>
                 <p>I built a project that analyses and predicts stock prices using advanced
                   Machine Learning algorithms like Linear Regression, Decision Tree,
                   Random Forest, Polyfit, and Deep Learning using Recurrent Neural
                   Networks using LSTM architecture with an accuracy of 96.7%.</p>
                 <p>I also drafted a research paper in IEEE format around the conclusions and
                   theory behind the same project.</p>
+                <p>
+                  <a href="https://github.com/mohnish-srikanth/rtvote" target="_blank" style="font-weight: bold; color: #007bff; text-decoration: underline;">
+                    Go to source code
+                  </a>
+                </p>
+
+                <h2>Personal AI Mailer Assistant</h2>
+                <p>This project is an intelligent, automated mailer that bridges the convenience of Telegram messaging with the power of AI-driven email composition and delivery. By simply sending a natural language instruction to a custom Telegram bot, users can have professional emails drafted by ChatGPT and sent directly from their Gmail account to any recipient. The workflow is seamless: the Telegram bot receives the user's message, extracts the recipient's email address and message intent, leverages OpenAI's GPT-4o model to generate a polished email draft, and then dispatches the email using the Gmail API—all in real time and without manual intervention.</p>
+                <p>The tech stack for this project is robust and modern. It utilizes the Telegram Bot API (via the python-telegram-bot library) for user interaction, OpenAI's GPT-4o for natural language processing and email drafting, and the Gmail API (with OAuth2 authentication) for secure email delivery. The backend is orchestrated in Python, leveraging asynchronous programming for efficient message handling and API communication. This integration of messaging, AI, and cloud-based email services creates a powerful tool for effortless, professional communication.</p>
+                <p>
+                  <a href="https://github.com/mohnish-srikanth/moniMailer/tree/master" target="_blank" style="font-weight: bold; color: #007bff; text-decoration: underline;">
+                    Go to source code
+                  </a>
+                </p>
               </section>
 
           </div>
